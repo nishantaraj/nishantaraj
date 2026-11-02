@@ -4,7 +4,7 @@
 
 **Head of AI Product Automations & Strategy at Learn with Leaders** · Bhubaneswar, India
 
-I design the operating system of an EdTech company: one trusted database for every program, books that read per program, payments that reconcile themselves, and reports the founders receive each morning without anyone building them.
+I design the operating system of an EdTech company: one trusted database for every programme, books that read per programme, payments that reconcile themselves, and reports the founders receive each morning without anyone building them.
 
 ---
 
@@ -12,23 +12,36 @@ I design the operating system of an EdTech company: one trusted database for eve
 
 | Remit | What it means in practice |
 |---|---|
-| **Data and backend architecture** | One central database in place of a sheet per program. Incoming data lands first and is validated before it is trusted. Role-based access, consent and audit built in, not bolted on |
-| **Financial streamlining and reporting** | Multi-currency books designed around programs, advance fees held as a liability until delivered, one program code shared by the books, the database and the reports |
+| **Data and backend architecture** | One central database in place of a sheet per programme. Incoming data lands first and is validated before it is trusted. Role-based access, consent and audit built in, not bolted on |
+| **Financial streamlining and reporting** | Multi-currency books designed around programmes, advance fees held as a liability until delivered, one programme code shared by the books, the database and the reports, and a finance console for founders |
 | **Process design** | Taking an unwritten habit, writing the rule, building the tool, and getting people to use it |
-| **Product** | Applications, custom checkout, an admin portal, a learner portal and LMS, an affiliate platform. Built with Lovable on React and Supabase |
-| **Automation and AI** | Daily reports and staged reminders that run on their own. Lead agents that have to pass safety tests, a shadow run and a pilot before they send anything |
+| **Product** | One application portal and custom checkout behind every digital programme, a learner portal and LMS, an affiliate platform, a finance console. Architected by me, built with Lovable on React and Supabase |
+| **Automation and AI** | Staged email and WhatsApp reminders, daily, weekly and quarterly reports that run on their own, and AI calling agents per region and programme with consent, suppression and kill switches |
 
 ## How the organisation changed
 
 | Before | After |
 |---|---|
-| A sheet per program, the same school spelled several ways | One database with explicit links between people, organisations, applications and payments |
-| Payment links matched to students by hand | Checkout that carries a program code, a webhook, and a reconciliation job that flags what it cannot match |
-| Finance reconciled program by program | One coded taxonomy across the books, the database and the reports |
-| Reports built by hand | A daily founder snapshot and a weekly financial report that arrive on their own |
+| A sheet per programme, the same school spelled several ways | One database with explicit links between people, organisations, applications and payments |
+| Payment links matched to students by hand | Checkout that carries a programme code, a webhook, and a reconciliation job that flags what it cannot match |
+| Finance reconciled programme by programme | One coded taxonomy across the books, the database and the reports |
+| Reports built by hand | Daily application and payment reports, a weekly financial overview and a quarterly programme-wise profit and loss that arrive on their own |
+| A site and form rebuilt for each programme | One application portal and shared catalogue that every programme site plugs into |
 | A gap after a student paid | A learner portal and LMS reading from the same database |
 
 The full picture is in [Operating model, before and after](https://github.com/nishantaraaj-prog/case-studies/blob/main/01-Organisation-Reshaped/Operating-Model-Before-And-After.md).
+
+## Platforms I architected and built
+
+Design and product logic are mine. I used AI to build quickly, and I make the architecture decisions.
+
+| Platform | Role in the organisation |
+|---|---|
+| Application Portal | The front door and central admin for every digital programme: catalogue-driven forms, custom checkout, promo engine, automated reminders |
+| Learner Portal and LMS | Student, mentor and admin portals, certificates, rewards, and an enrolment engine |
+| Finance Console and Founder 360 | Cash position, programme profitability, overheads, vendor bills and a cross-platform founder view |
+| Effort First | Deploys AI calling agents by region and programme, with consent-gated follow-up |
+| Affiliate Platform | Partner and school portals with attribution, earnings and payouts |
 
 ## Selected work
 
@@ -37,10 +50,10 @@ Write-ups live in [case-studies](https://github.com/nishantaraaj-prog/case-studi
 | Area | Read |
 |---|---|
 | Organisation | [Operating model, before and after](https://github.com/nishantaraaj-prog/case-studies/blob/main/01-Organisation-Reshaped/Operating-Model-Before-And-After.md) |
-| Data and backend | [Unified data architecture](https://github.com/nishantaraaj-prog/case-studies/blob/main/02-Data-And-Backend/Unified-Data-Architecture.md) · [Backend design principles](https://github.com/nishantaraaj-prog/case-studies/blob/main/02-Data-And-Backend/Backend-Design-Principles.md) |
-| Finance | [Financial streamlining and reporting](https://github.com/nishantaraaj-prog/case-studies/blob/main/03-Finance/Financial-Streamlining-And-Reporting.md) · [Programme code convention](https://github.com/nishantaraaj-prog/case-studies/blob/main/03-Finance/Programme-Code-Convention.md) |
-| Product | [Application-to-payment journey](https://github.com/nishantaraaj-prog/case-studies/blob/main/04-Product/Application-To-Payment-Journey.md) · [LMS and portals](https://github.com/nishantaraaj-prog/case-studies/blob/main/04-Product/LMS-And-Portals.md) · [Lovable build portfolio](https://github.com/nishantaraaj-prog/case-studies/blob/main/04-Product/Lovable-Build-Portfolio.md) |
-| Automation and AI | [AI lead agents and reporting](https://github.com/nishantaraaj-prog/case-studies/blob/main/05-Automation-And-AI/AI-Lead-Agents-And-Reporting.md) · [Daily automations with Apps Script](https://github.com/nishantaraaj-prog/case-studies/blob/main/05-Automation-And-AI/Daily-Automations-With-Apps-Script.md) |
+| Data and backend | [Platform estate architecture](https://github.com/nishantaraaj-prog/case-studies/blob/main/02-Data-And-Backend/Platform-Estate-Architecture.md) · [Unified data architecture](https://github.com/nishantaraaj-prog/case-studies/blob/main/02-Data-And-Backend/Unified-Data-Architecture.md) · [Backend design principles](https://github.com/nishantaraaj-prog/case-studies/blob/main/02-Data-And-Backend/Backend-Design-Principles.md) |
+| Finance | [Financial streamlining and reporting](https://github.com/nishantaraaj-prog/case-studies/blob/main/03-Finance/Financial-Streamlining-And-Reporting.md) · [Finance console](https://github.com/nishantaraaj-prog/case-studies/blob/main/03-Finance/Finance-Console.md) · [Automated financial reporting](https://github.com/nishantaraaj-prog/case-studies/blob/main/03-Finance/Automated-Financial-Reporting.md) · [Programme code convention](https://github.com/nishantaraaj-prog/case-studies/blob/main/03-Finance/Programme-Code-Convention.md) |
+| Product | [Application portal](https://github.com/nishantaraaj-prog/case-studies/blob/main/04-Product/Application-Portal.md) · [Application-to-payment journey](https://github.com/nishantaraaj-prog/case-studies/blob/main/04-Product/Application-To-Payment-Journey.md) · [Learner portal and LMS](https://github.com/nishantaraaj-prog/case-studies/blob/main/04-Product/LMS-And-Portals.md) · [Affiliate platform](https://github.com/nishantaraaj-prog/case-studies/blob/main/04-Product/Affiliate-Platform.md) · [Lovable build portfolio](https://github.com/nishantaraaj-prog/case-studies/blob/main/04-Product/Lovable-Build-Portfolio.md) |
+| Automation and AI | [AI calling agents](https://github.com/nishantaraaj-prog/case-studies/blob/main/05-Automation-And-AI/AI-Calling-Agents.md) · [AI lead agents and reporting](https://github.com/nishantaraaj-prog/case-studies/blob/main/05-Automation-And-AI/AI-Lead-Agents-And-Reporting.md) · [Daily automations with Apps Script](https://github.com/nishantaraaj-prog/case-studies/blob/main/05-Automation-And-AI/Daily-Automations-With-Apps-Script.md) |
 | Process design | [Building processes from scratch](https://github.com/nishantaraaj-prog/case-studies/blob/main/06-Process-Design/Building-Processes-From-Scratch.md) |
 
 ## Runnable code

@@ -75,13 +75,14 @@ Original code with invented data, written from scratch to show the patterns. Non
 4. Make the reports read from it.
 5. Automate the follow-up last, and measure each stage so it can be questioned.
 
-I keep a person in the loop wherever a wrong call is expensive, and I would rather report a modest number I can defend than a big one I cannot.
+I decide the architecture first, then build with AI and Lovable, and I read, write and review the code myself in VS Code and Claude Code. I keep a person in the loop wherever a wrong call is expensive, and I would rather report a modest number I can defend than a big one I cannot.
 
 ## Toolkit
 
 | Area | Tools |
 |---|---|
 | Product | Lovable, React, TypeScript, Tailwind |
+| Engineering workflow | VS Code, Claude Code, Git |
 | Data and backend | Supabase (Postgres, Edge Functions, row-level security) |
 | Finance | Xero, multi-currency, tracking categories |
 | Payments | Stripe, Razorpay |

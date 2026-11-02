@@ -2,7 +2,7 @@
 
 # Nishanta Raj
 
-**Head of AI Product Automations & Strategy at Learn with Leaders** · Bhubaneswar, India
+**Head of AI Product Automations & Strategy at Learn with Leaders** · New Delhi, India
 
 I design the operating system of an EdTech company: one trusted database for every programme, books that read per programme, payments that reconcile themselves, and reports the founders receive each morning without anyone building them.
 

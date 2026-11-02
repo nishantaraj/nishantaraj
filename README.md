@@ -29,7 +29,7 @@ I design the operating system of an EdTech company: one trusted database for eve
 | A site and form rebuilt for each programme | One application portal and shared catalogue that every programme site plugs into |
 | A gap after a student paid | A learner portal and LMS reading from the same database |
 
-The full picture is in [Operating model, before and after](https://github.com/nishantaraaj-prog/case-studies/blob/main/01-Organisation-Reshaped/Operating-Model-Before-And-After.md).
+The full picture is in [Operating model, before and after](https://github.com/nishantaraj/case-studies/blob/main/01-Organisation-Reshaped/Operating-Model-Before-And-After.md).
 
 ## Platforms I architected and built
 
@@ -45,16 +45,16 @@ Design and product logic are mine. I used AI to build quickly, and I make the ar
 
 ## Selected work
 
-Write-ups live in [case-studies](https://github.com/nishantaraaj-prog/case-studies). The company's code, data and figures stay with the company, so each one covers the problem, the design and the trade-offs.
+Write-ups live in [case-studies](https://github.com/nishantaraj/case-studies). The company's code, data and figures stay with the company, so each one covers the problem, the design and the trade-offs.
 
 | Area | Read |
 |---|---|
-| Organisation | [Operating model, before and after](https://github.com/nishantaraaj-prog/case-studies/blob/main/01-Organisation-Reshaped/Operating-Model-Before-And-After.md) |
-| Data and backend | [Platform estate architecture](https://github.com/nishantaraaj-prog/case-studies/blob/main/02-Data-And-Backend/Platform-Estate-Architecture.md) · [Unified data architecture](https://github.com/nishantaraaj-prog/case-studies/blob/main/02-Data-And-Backend/Unified-Data-Architecture.md) · [Backend design principles](https://github.com/nishantaraaj-prog/case-studies/blob/main/02-Data-And-Backend/Backend-Design-Principles.md) |
-| Finance | [Financial streamlining and reporting](https://github.com/nishantaraaj-prog/case-studies/blob/main/03-Finance/Financial-Streamlining-And-Reporting.md) · [Finance console](https://github.com/nishantaraaj-prog/case-studies/blob/main/03-Finance/Finance-Console.md) · [Automated financial reporting](https://github.com/nishantaraaj-prog/case-studies/blob/main/03-Finance/Automated-Financial-Reporting.md) · [Programme code convention](https://github.com/nishantaraaj-prog/case-studies/blob/main/03-Finance/Programme-Code-Convention.md) |
-| Product | [Application portal](https://github.com/nishantaraaj-prog/case-studies/blob/main/04-Product/Application-Portal.md) · [Application-to-payment journey](https://github.com/nishantaraaj-prog/case-studies/blob/main/04-Product/Application-To-Payment-Journey.md) · [Learner portal and LMS](https://github.com/nishantaraaj-prog/case-studies/blob/main/04-Product/LMS-And-Portals.md) · [Affiliate platform](https://github.com/nishantaraaj-prog/case-studies/blob/main/04-Product/Affiliate-Platform.md) · [Lovable build portfolio](https://github.com/nishantaraaj-prog/case-studies/blob/main/04-Product/Lovable-Build-Portfolio.md) |
-| Automation and AI | [AI calling agents](https://github.com/nishantaraaj-prog/case-studies/blob/main/05-Automation-And-AI/AI-Calling-Agents.md) · [AI lead agents and reporting](https://github.com/nishantaraaj-prog/case-studies/blob/main/05-Automation-And-AI/AI-Lead-Agents-And-Reporting.md) · [Daily automations with Apps Script](https://github.com/nishantaraaj-prog/case-studies/blob/main/05-Automation-And-AI/Daily-Automations-With-Apps-Script.md) |
-| Process design | [Building processes from scratch](https://github.com/nishantaraaj-prog/case-studies/blob/main/06-Process-Design/Building-Processes-From-Scratch.md) |
+| Organisation | [Operating model, before and after](https://github.com/nishantaraj/case-studies/blob/main/01-Organisation-Reshaped/Operating-Model-Before-And-After.md) |
+| Data and backend | [Platform estate architecture](https://github.com/nishantaraj/case-studies/blob/main/02-Data-And-Backend/Platform-Estate-Architecture.md) · [Unified data architecture](https://github.com/nishantaraj/case-studies/blob/main/02-Data-And-Backend/Unified-Data-Architecture.md) · [Backend design principles](https://github.com/nishantaraj/case-studies/blob/main/02-Data-And-Backend/Backend-Design-Principles.md) |
+| Finance | [Financial streamlining and reporting](https://github.com/nishantaraj/case-studies/blob/main/03-Finance/Financial-Streamlining-And-Reporting.md) · [Finance console](https://github.com/nishantaraj/case-studies/blob/main/03-Finance/Finance-Console.md) · [Automated financial reporting](https://github.com/nishantaraj/case-studies/blob/main/03-Finance/Automated-Financial-Reporting.md) · [Programme code convention](https://github.com/nishantaraj/case-studies/blob/main/03-Finance/Programme-Code-Convention.md) |
+| Product | [Application portal](https://github.com/nishantaraj/case-studies/blob/main/04-Product/Application-Portal.md) · [Application-to-payment journey](https://github.com/nishantaraj/case-studies/blob/main/04-Product/Application-To-Payment-Journey.md) · [Learner portal and LMS](https://github.com/nishantaraj/case-studies/blob/main/04-Product/LMS-And-Portals.md) · [Affiliate platform](https://github.com/nishantaraj/case-studies/blob/main/04-Product/Affiliate-Platform.md) · [Lovable build portfolio](https://github.com/nishantaraj/case-studies/blob/main/04-Product/Lovable-Build-Portfolio.md) |
+| Automation and AI | [AI calling agents](https://github.com/nishantaraj/case-studies/blob/main/05-Automation-And-AI/AI-Calling-Agents.md) · [AI lead agents and reporting](https://github.com/nishantaraj/case-studies/blob/main/05-Automation-And-AI/AI-Lead-Agents-And-Reporting.md) · [Daily automations with Apps Script](https://github.com/nishantaraj/case-studies/blob/main/05-Automation-And-AI/Daily-Automations-With-Apps-Script.md) |
+| Process design | [Building processes from scratch](https://github.com/nishantaraj/case-studies/blob/main/06-Process-Design/Building-Processes-From-Scratch.md) |
 
 ## Runnable code
 
@@ -62,10 +62,10 @@ Original code with invented data, written from scratch to show the patterns. Non
 
 | Repository | What it shows |
 |---|---|
-| [supabase-backend-patterns](https://github.com/nishantaraaj-prog/supabase-backend-patterns) | Landing layer, money in minor units, consent, time-limited grants and row-level security, with tests that run on real Postgres |
-| [programme-finance-reporting](https://github.com/nishantaraaj-prog/programme-finance-reporting) | Programme-coded profit and loss with deferred revenue and multiple currencies |
-| [payment-reconciliation-template](https://github.com/nishantaraaj-prog/payment-reconciliation-template) | Matching payments to applications, safe to re-run |
-| [apps-script-daily-ops-toolkit](https://github.com/nishantaraaj-prog/apps-script-daily-ops-toolkit) | Daily snapshot, staged reminders, duplicate-safe CSV import |
+| [supabase-backend-patterns](https://github.com/nishantaraj/supabase-backend-patterns) | Landing layer, money in minor units, consent, time-limited grants and row-level security, with tests that run on real Postgres |
+| [programme-finance-reporting](https://github.com/nishantaraj/programme-finance-reporting) | Programme-coded profit and loss with deferred revenue and multiple currencies |
+| [payment-reconciliation-template](https://github.com/nishantaraj/payment-reconciliation-template) | Matching payments to applications, safe to re-run |
+| [apps-script-daily-ops-toolkit](https://github.com/nishantaraj/apps-script-daily-ops-toolkit) | Daily snapshot, staged reminders, duplicate-safe CSV import |
 
 ## How I work
 
